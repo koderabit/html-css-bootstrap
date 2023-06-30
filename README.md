@@ -16,7 +16,7 @@ O projeto consiste em um site de turismo com as seguintes seções:
 
 ## Como executar o projeto
 
-1. Clone este repositório: `git clone https://github.com/SEU_USUARIO/html-css-bootstrap.git`
+1. Clone este repositório: `git clone https://github.com/koderabit/html-css-bootstrap.git`
 2. Navegue até o diretório do projeto: `cd html-css-bootstrap`
 3. Abra o arquivo `index.html` em um navegador da web.
 
