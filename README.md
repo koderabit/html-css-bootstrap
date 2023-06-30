@@ -2,7 +2,7 @@
 
 Este é um projeto de exemplo que demonstra o uso de HTML, CSS e Bootstrap para criar um site de turismo fictício chamado "KoderaBit Tur".
 
-O projeto está disponível em: [GitHub Pages](https://koderabit.github.io/html-css-bootstrap)
+O projeto está disponível em: [Koderabit Tur](https://koderabit.github.io/html-css-bootstrap)
 
 ## Descrição
 
@@ -22,7 +22,7 @@ O projeto consiste em um site de turismo com as seguintes seções:
 
 ou
 
-Acesse: [GitHub Pages](https://koderabit.github.io/html-css-bootstrap)
+Acesse: [Koderabit Tur](https://koderabit.github.io/html-css-bootstrap)
 
 ## Tecnologias utilizadas
 
@@ -32,5 +32,5 @@ Acesse: [GitHub Pages](https://koderabit.github.io/html-css-bootstrap)
 
 ## Autor
 
-Desenvolvido por [koderabit](https://github.com/koderabit)
+Desenvolvido por [Koderabit](https://github.com/koderabit)
 
