@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos sonhos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="container-fluid p-3 bg-warning text-center">
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">KoderaBit Tur</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#pacotes">Pacotes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#taxas">Taxas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contatos
+                    </a>
+                    <ul class="dropdown-menu bg-warning">
+                      <li><a class="dropdown-item" href="#orcamentos">Orçamentos</a></li>
+                      <li><a class="dropdown-item" href="#https://github.com/koderabit" target="_blank">Redes Sociais</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#footer">Sobre nós</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carousel/paisagem0IA.jpg" class="d-block w-100" alt="Paisagem 1 criada por IA">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Paisagem gerada por Inteligência Artificial</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/paisagem1IA.jpg" class="d-block w-100" alt="Paisagem 2 criada por IA">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Paisagem gerada por Inteligência Artificial</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/carousel/paisagem2IA.jpg" class="d-block w-100" alt="Paisagem 3 criada por IA">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Paisagem gerada por Inteligência Artificial</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+    <section class="container-fluid bg-light text-center p-5" id="pacotes">
+        <h2>Conheça os nossos pacotes</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 bg-warning">
+                <img src="img/nossosPacotes/gramadoIA.jpg" class="card-img-top" alt="Chalé em Gramado-RS gerada por IA">
+                <div class="card-body">
+                  <h5 class="card-title">Gramado-RS</h5>
+                  <h1 class="card-subtitle text-muted">R$ 5.000,00</h1>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Em até 12x sem juros</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-warning">
+                <img src="img/nossosPacotes/portoSeguroIA.jpg" class="card-img-top" alt="Porto Seguro-BA gerada por IA">
+                <div class="card-body">
+                  <h5 class="card-title">Porto Seguro-BA</h5>
+                  <h1 class="card-subtitle text-muted">R$ 3.000,00</h1>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Em até 12x sem juros</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-warning">
+                <img src="img/nossosPacotes/rioDeJaneiroIA.jpg" class="card-img-top" alt="Rio de Janeiro-RJ gerada por IA">
+                <div class="card-body">
+                  <h5 class="card-title">Rio de Janeiro-RJ</h5>
+                  <h1 class="card-subtitle text-muted">R$ 4.500,00</h1>
+                </div>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Em até 12x sem juros</small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section class="container-fluid bg-warning text-center p-5" id="taxas">
+        <h2>Taxas e Serviços</h2>
+        <p>Veja as nossas taxas para os serviços ofertados.</p>
+        <table class="table table-warning table-striped table-hover table-bordered border-warning">
+            <caption>Descrição dos serviços e respectivos valores</caption>
+            <thead class="table-secondary">
+                <tr>
+                    <th>Serviço</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>Reserva de Hotel</td>
+                    <td>R$ 150,00</td>
+                </tr>
+                <tr>
+                    <td>Compra de Passagens</td>
+                    <td>R$ 100,00</td>
+                </tr>
+                <tr>
+                    <td>Aluguel de Carros</td>
+                    <td>R$ 50,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="container-fluid bg-light p-5" id="orcamentos">
+        <h2 class="text-center">Solicite o seu orçamento</h2>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Dados Gerais</legend>
+                <div class="nb-3">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome" placeholder="João da Silva">
+                </div>
+
+                <div class="nb-3">
+                    <label class="form-label" for="email">E-mail</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="nome@email.com" required>
+                </div>
+
+                <div class="nb-3">
+                    <label class="form-label" for="dataIda">Data de ida</label>
+                    <input type="date" class="form-control" name="dataIda" id="dataIda">
+                </div>
+
+                <div class="nb-3">
+                    <label class="form-label" for="dataVolta">Data de volta</label>
+                    <input type="date" class="form-control" name="dataVolta" id="dataVolta">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais serviços você deseja contratar?</legend>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="hospedagem" value="Hospedagem" id="hospedagem">
+                    <label class="form-check-label" for="hospedagem">Reserva de Hotel</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="passagens" value="Passagens" id="passagens">
+                    <label class="form-check-label" for="passagens">Compra de Passagens</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="veiculos" value="Veiculos" id="veiculos">
+                    <label class="form-check-label" for="veiculos">Aluguel de Carros</label>
+                </div>
+            </fieldset><br>
+            <button class="btn btn-primary">Salvar</button>
+        </form>
+    </section>
+    <br>
+    <footer class="container-fluid bg-warning text-center p-3" id="footer">
+        Desenvolvido por &copy;<a href="https://github.com/koderabit" target="_blank">Koderabit.</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suas compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Produto adicionado ao carrinho!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+          <a href="checkout.html" type="button" class="btn btn-success">Finalizar compra</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</html>
